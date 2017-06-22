@@ -1,4 +1,8 @@
+import java.util.*;
+
 public class HelloWorld {
+
+	private static Scanner sc;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -7,6 +11,10 @@ public class HelloWorld {
 		System.out.println("Second Commit");
 		System.out.println("Third commit");
 		System.out.println("So far fourth commit");
+		sc = new Scanner(System.in);
+		System.out.println("Enter a name : ");
+		String name = sc.next();
+		System.out.printf("Hello %s", name);
 	}
 
 }
